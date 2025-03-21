@@ -1,27 +1,23 @@
 from django.shortcuts import render, HttpResponse
+#importamos el modelo del servicio
 
 # Create your views here.
 
 def home(request):
-
-    return HttpResponse("Home")
-
-
-def servicios(request):
-
-    return HttpResponse("Servicios")
+    
+    return render(request, "TitanCorpApp/home.html")
 
 
 def tienda(request):
 
-    return HttpResponse("Tienda")
+    return render(request, "TitanCorpApp/tienda.html")
 
 
 def blog(request):
 
-    return HttpResponse("Blog")
+    return render(request, "TitanCorpApp/blog.html")
 
 
 def contacto(request):
 
-    return HttpResponse("Contacto")
+    return render(request, "TitanCorpApp/contacto.html")
