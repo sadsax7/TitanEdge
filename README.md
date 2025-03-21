@@ -1,8 +1,8 @@
-# TitanEdge
+# Titan_Corp
 
-# 🧠 U-Market: Plataforma de Comercio para Estudiantes Universitarios
+# 🧠 Titan_Corp: Plataforma de Comercio para Estudiantes Universitarios
 
-**U-Market** es una aplicación web construida con **Django 4** y **SQLite3**, diseñada como espacio de comercio exclusivo para estudiantes universitarios. Los usuarios pueden comprar, vender, subastar productos y conectarse dentro de la comunidad universitaria.
+**Titan_Corp** es una aplicación web construida con **Django 4** y **SQLite3**, diseñada como espacio de comercio exclusivo para estudiantes universitarios. Los usuarios pueden comprar, vender, subastar productos y conectarse dentro de la comunidad universitaria.
 
 Este proyecto es desarrollado en el curso *Tópicos Especiales en Ingenieria de Software* de la *Universidad EAFIT* bajo la arquitectura **MVT (Model-View-Template)**.
 
@@ -114,5 +114,5 @@ Puedes encontrar documentación adicional en la pestaña [Wiki](https://github.c
 
 ## 📩 Contacto
 
-📩 [aarangom1@eafit.edu.co](mailto:aarangom1@eafit.edu.co)
+📩 [aarangom1@eafit.edu.co](mailto:aarangom1@eafit.edu.co) o [jjvillas@eafit.edu.co](mailto:jjvillas@eafit.edu.co])
 
