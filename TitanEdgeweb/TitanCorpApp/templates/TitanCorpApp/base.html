@@ -24,6 +24,19 @@
         <span class="site-heading-lower">Titan Corporations</span>
       </h1>
 
+      <div style=" text-align: right; margin-right: 100px; color: aliceblue;">
+        
+        {% if user.is_authenticated %}
+
+          Hola {{user.username}} &nbsp; &nbsp; <a href="{% url 'cerrar_sesion' %}" style="color: rgb(0, 246, 201);">Cerrar Sesion</a>
+
+        {% else %}
+
+          <a href="#">Login</a> &nbsp; &nbsp; <a href="Autenticacion">Registrate</a>
+
+        {% endif %}
+
+      </div>
 
  <!-- Navbar -->
  <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
